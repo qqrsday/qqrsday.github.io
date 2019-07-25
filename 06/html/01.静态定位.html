@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 300px;
+            border: 10px solid red;
+            /* 
+                定位：position
+                定位一定要配合 left right top bottom 方位属性一起使用
+                取值：
+                    （1）静态定位---static,所有元素的默认情况下都是静态定位，当给元素设置静态定位和没有设置定位是一样效果
+
+                    （2）相对定位---relative
+                        参考物：元素本身没有定位之前的位置
+                            当left为正值的时候，元素往右移动，left为负值的时候，往左移动
+                            当 top为正值的时候，元素下移动，top 为负值的时候，往上移动
+                        特点：相对定位一定之后还占据原来的位置（不脱离文档流）
+                    （3）绝对定位---absolute    
+                        参照物：绝对定位的参照物是 浏览器的可视窗口 和 最近的有定位（非static定位）的 父元素  
+                        特点：绝对定位之后元素脱离文档流，定位置不占据原来的位置
+
+                    文档流：
+                        标准文档流：块级元素从上到下布局，行内元素从左到右布局
+                        
+                        脱离文档流：打破标准文档流的布局，块级元素不会只从上到下布局，也可以从左到右布局，脱离文档流不会占据原来的位置，后面的元素可以往上移动
+                    脱离文档流的方式：浮动，绝对定位，固定定位
+
+
+             */
+        }
+
+        .box .box1 {
+            width: 200px;
+            height: 200px;
+            background: green;
+            position: static;
+            left: 100px;
+            top: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+
+</body>
+
+</html>

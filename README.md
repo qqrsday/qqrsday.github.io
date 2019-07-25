@@ -1,1 +1,0 @@
-# qqrsday.github.io

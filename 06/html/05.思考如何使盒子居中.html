@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 400px;
+            border: 1px solid red;
+            position: relative;
+        }
+
+        .box .box1 {
+            width: 100px;
+            height: 200px;
+            background: pink;
+            position: absolute;
+            /* 
+                left: 50%; 这里的50% 指的是父元素宽度的一般
+                top: 50%; 指父元素高度的一般
+
+             */
+            left: 50%;
+            top: 50%;
+            /* margin-left: -50%;
+            margin-top: -50%; */
+            /* 
+                transform: translate(-50%, -50%);
+                这里的50% 相对于元素本身宽高来定义  
+             */
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        一个小盒子在一个大小不固定的大盒子里面始终保持居中状态
+        使用定位：
+        大盒子设置：相对定位 position:relative
+        小盒子设置：
+        {
+            position:absolute;
+            top:50%;
+            left:50%;
+            设置
+            transform:translate(-50%,-50%);（万能方法）
+            或者设置
+            margin-left:小盒子宽度的一半（只能数值 + px来表示，不能使用百分比）
+            margin-top:小盒子高度的一半（只能数值 + px来表示，不能使用百分比）
+        }
+     -->
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+</body>
+
+</html>
