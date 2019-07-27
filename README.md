@@ -1,2 +1,2 @@
 # qqrsday.github.io
-<a href="360/html/360.html">360首页</a>
+<a href="qqrsday.github.io/360/html/360.html">360首页</a>
