@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .boxA {
+            width: 524px;
+            height: 528px;
+            position: relative;
+            background-color: #ccc;
+            overflow: hidden;
+        }
+
+        .box {
+            background-color: #ccc;
+            width: 500px;
+            height: 500px;
+            border: 1px red solid;
+            position: relative;
+            margin: 10px auto;
+        }
+
+        .tou {
+            float: left;
+            width: 200px;
+            height: 100px;
+            background: #51a251;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            position: absolute;
+            left: 150px;
+            top: 20px;
+        }
+
+        .eye1 {
+            background-color: #fff;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            position: absolute;
+            left: 60px;
+            top: 50px;
+        }
+
+        .eye2 {
+            background-color: #fff;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            position: absolute;
+            right: 60px;
+            top: 50px;
+        }
+
+        .hand1 {
+            width: 30px;
+            height: 180px;
+            position: absolute;
+            top: 140px;
+            left: 110px;
+            background-color: #51a251;
+            border-radius: 10px;
+        }
+
+        .hand2 {
+            width: 30px;
+            height: 180px;
+            position: absolute;
+            top: 140px;
+            right: 110px;
+            background-color: #51a251;
+            border-radius: 10px;
+        }
+
+        .body {
+            width: 200px;
+            height: 230px;
+            position: absolute;
+            top: 130px;
+            left: 150px;
+            background-color: #51a251;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .foot1 {
+            width: 30px;
+            height: 80px;
+            background-color: #51a251;
+            position: absolute;
+            top: 360px;
+            left: 190px;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .foot2 {
+            width: 30px;
+            height: 80px;
+            background-color: #51a251;
+            position: absolute;
+            top: 360px;
+            right: 190px;
+            border-radius: 0 0 12px 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxA">
+        <div class="box">
+            <div class="tou">
+                <div class="eye1"></div>
+                <div class="eye2"></div>
+            </div>
+            <div class="hand1"></div>
+            <div class="body"></div>
+            <div class="hand2"></div>
+            <div class="foot1"></div>
+            <div class="foot2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

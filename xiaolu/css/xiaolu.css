@@ -1,0 +1,491 @@
+#XL{
+    width: 100%;
+    min-height: 2000px;
+}
+#XL .fixR{
+    width: 80px;
+    height: 320px;
+    position: fixed;
+    right: 20px;
+    top: 250px;
+    background-color:rgb(255, 255, 255, 0.801);
+    text-align: center;
+    z-index:999;
+}
+#XL .fixR .F{
+width: 100%;
+height: 80px;
+float: left;
+text-align: center;
+position: relative;
+}
+#XL .fixR dl dt .a1{
+    width: 28px;
+    height: 28px;
+      object-fit:cover;
+      display: block;
+      position: absolute;
+      left: 50%;top: 50%;
+      transform: translate(-50%,-50%);
+    }
+#XL .fixR dl span .a2{
+width: 28px;
+height: 28px;
+  object-fit:cover;
+  display: none;
+  position: absolute;
+      left: 50%;top: 50%;
+      transform: translate(-50%,-50%);
+  }
+#XL .fixR .F .p1{
+font-size: 12px;
+color: #9b9b9b;;
+margin-top: 59px;
+}
+
+#XL .fixR .F:hover .a1{
+    display: none;
+  }
+#XL .fixR .F:hover .a2{
+    display: block;
+  }
+  #XL .fixR .F:hover .p1{
+      color: #ffa800
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#XL .content{
+width: 1200px;
+margin: auto;
+}
+#XL .content .nav{
+    height: 70px;
+}
+#XL .content .nav img{
+ float: left;
+ margin-top: 18px;
+}
+#XL .content .nav p{
+float: left;
+margin-top: 28px;
+margin-left: 15px;
+color: #ffa800;
+font-size: 11px;
+}
+#XL .content .nav ul{
+float: right;
+}
+#XL .content .nav ul li{
+float: left;
+margin-left: 60px;
+margin-top: 28px;
+font-size: 15px;
+}
+#XL .content .nav ul li a:hover{
+
+color: #ffa800;
+}
+
+
+
+
+
+
+
+
+
+#XL .banner{
+    width: 100%;
+    height: 350px;
+    background: url(../images/banner.png);
+    background-position: center center;
+}
+#clearfix::after {
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+#XL .banner .boxA{
+    width: 240px;height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    float: left;
+}
+#XL .banner .boxA .A0{
+    width: 240px;
+    height: 65px;
+    position: relative;
+}
+
+
+#XL .banner .boxA .B1{
+float: left;
+font-size: 19px;
+color: white;
+margin-left: 17px;
+position: absolute;
+    left: 90px;
+    top: 20px;
+}
+#XL .banner .boxA .A1{
+    background: url(../images/p1.png);
+    background-position: -0px -0px;
+     width: 26px; 
+    height: 26px; 
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+}
+#XL .banner .boxA .A2{
+    background: url(../images/p1.png);
+    background-position: -26px -0px; width: 26px; height: 26px;      width: 26px; 
+    height: 26px; 
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+}
+#XL .banner .boxA .A3{
+    background: url(../images/p1.png);
+    background-position: -52px -0px; width: 26px; height: 26px;    height: 26px; 
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+}
+#XL .banner .boxA .A4{
+    background: url(../images/p1.png);
+    background-position: -78px -0px; width: 26px; height: 26px;    height: 26px; 
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+}
+#XL .banner .boxA .A5{
+    background: url(../images/p1.png);
+    background-position: -104px -0px; width: 26px; height: 26px;    height: 26px; 
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+}
+#XL .banner .boxA a{
+    color: white;
+}
+#XL .banner .boxB{
+    width: 480px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.55);
+display: none;
+position: absolute;
+left: 240px;
+top: 0;
+}
+#XL .banner .boxA .boxB .B4{
+    width: 124px;
+    float: left;
+    border-right: 1px solid white;
+    color: white;
+    text-align: center;
+    margin-top: 42px;
+}
+#XL .banner .boxB a:hover{
+    color: orange;
+}
+#XL .banner .boxB a{
+    color: white;
+}
+#XL .banner .content .boxA .boxB:hover{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+#XL .banner .content .boxA .A0:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#XL .banner .content .boxA .A0:hover + .boxB{
+     display: block;
+}
+
+#XL .banner .content .boxA .boxB:hover + .A0{
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+
+
+
+#XL .content .boxC{
+margin-top: 40px;
+margin-left: 70px;
+width: 1200px;
+}
+#XL .content .boxC .C1{
+text-align: center;
+width: 100px;height: 100px;
+margin-left: 93px;
+float: left;
+  }
+#XL .main1 {
+  margin-top: 60px;
+}
+
+#XL .main1 .p2{
+  width: 1000px;
+float: left;
+margin-left: 20px;
+font-size: 12px;
+margin-top: 14px;
+height: 27px;
+}
+#XL .main1 .content .box{
+position: relative;
+}
+#XL .main1 .content .box .A1{
+  float: left;
+  width: 540px;height: 360px;
+  overflow: hidden;
+}
+#XL .main1 .content .box .A2{
+  width: 540px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
+#XL .main1 .content .box .B1{
+  float: left;
+  width: 262px;
+  margin-left: 10px;
+  position: relative;
+}
+#XL .main1 .content .box .B1 img{
+  width: 262px;height: 175px;
+  OBJECT-FIT:COVER;
+  margin-top: 10px;
+}
+#XL .main1 .content .box .B1 .p3{
+position: absolute;
+top: 115px;
+left: 0;
+display: block;
+width: 262px;height: 60px;
+background-color: rgba(0, 0, 0, 0.25);
+color: white;
+white-space:nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 60px;
+}
+#XL .main1 .content .box .B1 .p4{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+  width: 262px;height: 60px;
+  background-color: rgba(0, 0, 0, 0.25);
+text-align: center;
+color: white;
+line-height: 60px;
+  }
+#XL .main1 .content .box .A1:hover{
+  transform: scale(1.02)
+}
+#XL .main1 .content .box .B1 .img1:hover{
+  transform: scale(1.02)
+}
+#XL .main1 .content .box .B1 .img2:hover{
+  transform: scale(1.02)
+}
+#XL .main1 .content .box .C1:hover{
+  transform: scale(1.02)
+}
+
+
+
+
+
+
+
+
+
+
+
+#XL .main2{
+  width: 1200px;
+  margin: auto;
+}
+#XL .main2 .m2nav{
+  height: 85px;width: 100%;
+}
+#XL .main2 .m2nav .nl ul li{
+ float: left;
+ line-height: 85px;
+ text-align: center;
+ margin-right: 26px;
+ font-size: 12px;
+}
+#XL .main2 .m2nav .nl ul li a{
+  color: black;
+  width: 200px;
+}
+#XL .main2 .m2nav .nl ul li a:hover{
+  color: orange;
+}
+#XL .main2 .m2nav .nr{
+  float: right;
+  margin-top: 40px;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+#XL .main2 .m2bn{
+  width: 100%;
+  height: 540px;
+}
+#XL .main2 .m2bn .A1{
+  width: 570px;height: 160px;
+  float: left;
+  margin-top: 30px;
+  background-color: #fff;
+}
+#XL .main2 .m2bn .A1:nth-child(2n+1){
+  margin-right: 60px;
+}
+#XL .main2 .m2bn .A2{
+width: 240px;height: 160px;
+float: left;
+background:url(../images/1.png)
+}
+#XL .main2 .m2bn .A3{
+  margin-left: 30px;
+  margin-top: 8px;
+  float: left;
+  width: 300px;
+}
+#XL .main2 .m2bn .A3 .p1{
+  font-weight: bolder;
+}
+#XL .main2 .m2bn .A3 .p2{
+  margin-top: 15px;
+  font-size: 11px;
+  color: #c8c8c8;
+}
+#XL .main2 .m2bn .A3 .p3{
+  margin-top: 15px;
+  font-size: 12px;
+  float: left;
+}
+#XL .main2 .A2:hover{
+  transform: scale(1.02)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#XL .main3{
+  background: #f8f8f8;
+  height: 670px;
+width: 100%;
+margin-top: 30px;
+overflow: hidden;
+position: relative;
+}
+#XL .main3 .content h2{
+font-size: 26px;
+font-weight: bolder;
+margin-top: 40px;
+float: left;
+}
+#XL .main3 .content .p5{
+  font-size: 12px;
+  margin-top: 54px;
+  margin-left: 22px;
+  float: left;
+}
+#XL .main3 .content .A1{
+   position: absolute;
+   top: 90px;
+}
+#XL .main3 .content .A2{
+  position: absolute;
+  top: 42px;
+  left: 250px;
+}
+#XL .main3 .content .A2 .p6{
+  font-size: 28px;
+  font-weight: bolder;
+}
+#XL .main3 .content .A2 .p7{
+  font-size: 14px;
+  margin-top: 32px;
+}
+#XL .main3 .content .A3{
+  width: 180px;height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  background-color: orange;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  border-radius:50px;
+}
+#XL .main3 .content .B1{
+  height: 335px;
+  width: 1200px;
+  background-color: #fff;
+  position: absolute;
+  top: 300px;
+}
+#XL .main3 .content .B1 .B2{
+  height: 335px;
+  width: 270px;
+  background-color: #fff;
+  margin-left: 40px;
+  float: left;
+  
+}
+#XL .main3 .content .B1 .B2 li{
+  width: 65px;
+background-color: pink;
+border-radius:50px;
+float: left;
+font-size: 12px;
+margin-left: 20px;
+margin-top: 15px;
+text-align: center;
+}
+#XL .main3 .content .B1 .B2 p{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 12px;
+}
