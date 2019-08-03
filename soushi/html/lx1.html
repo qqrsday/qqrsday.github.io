@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .sfq {
+            width: 400px;
+            margin: auto;
+        }
+
+        .sfq div {
+            margin-bottom: 10px;
+        }
+
+        .sfq div p {
+            /* display: none; */
+            height: 0px;
+            overflow: hidden;
+            /*  transition: height 2s; 过渡动画 */
+            transition: height 2s;
+        }
+
+        .sfq h2 a {
+            display: block;
+            height: 50px;
+            background: #ccc;
+            border-radius: 10px;
+            line-height: 50px;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        .sfq h2 a::after {
+            content: '';
+            display: block;
+            width: 0px;
+            height: 0px;
+            border: 10px solid transparent;
+            border-top-color: #fff;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -5px;
+
+        }
+
+        .sfq div:target p {
+            /* display: block; */
+            height: 200px;
+            overflow: auto;
+        }
+
+        .sfq div:target h2 a {
+            background: rgb(89, 89, 238);
+        }
+
+        .sfq div:target a::after {
+            border: 10px solid transparent;
+            border-left-color: #fff;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sfq">
+
+        <div id="box1" class="Brand">
+            <h2> <a href="#box1">
+                    Brand
+                </a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

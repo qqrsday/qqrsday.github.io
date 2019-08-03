@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/04.css">
+    <link rel="stylesheet" media="all and (min-width:701px) and (max-width:1100px)" href="../css/03.css">
+    <link rel="stylesheet" media="all and (min-width:401px) and (max-width:700px)" href="../css/02.css">
+    <link rel="stylesheet" media="all and (min-width:0px) and (max-width:400px)" href="../css/01.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+        }
+
+        img {
+
+            object-fit: cover;
+            float: left;
+            margin-top: 20px;
+            width: auto;
+            height: auto;
+            max-width: 10%;
+            max-height: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        利用媒体查询 + 弹性布局（子元素宽度可以设置100%）
+        1、0-400px ,页面呈现1列布局
+        2、401-700px页面呈现2列布局
+        3、701-1100px页面呈现3列布局
+        4、1100+以上呈现4列布局（默认样式）
+     -->
+    <div class="box1">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+        <img src="../images/1.jpg" alt="">
+    </div>
+</body>
+
+</html>

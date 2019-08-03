@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul li {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 10px;
+            box-shadow: 0px 3px 2px 1px white inset, 0px 5px 3px 1px #ccc inset, 0px 0px 3px 1px rgb(143, 143, 143) inset;
+            display: flex;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+
+        span {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            background: #000;
+            box-shadow: 0px 2px 2px 2px rgb(143, 143, 143);
+
+        }
+
+        ul li:nth-child(1) {
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        ul li:nth-child(n+2) {
+            justify-content: space-between;
+        }
+
+        ul li:nth-child(2) span:nth-child(2) {
+            align-self: flex-end;
+
+        }
+
+        ul li:nth-child(3) span:nth-child(2) {
+            align-self: center;
+            justify-content: center
+        }
+
+        ul li:nth-child(3) span:nth-child(3) {
+            align-self: flex-end;
+        }
+
+        ul li:nth-child(5) div:nth-child(2) {
+            align-self: center;
+            justify-content: center;
+        }
+
+        li div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <span></span>
+        </li>
+        <li>
+            <span></span>
+            <span></span>
+        </li>
+        <li>
+            <span></span>
+            <span></span>
+            <span></span>
+        </li>
+        <li>
+            <div>
+                <span></span>
+                <span></span></div>
+            <div>
+                <span></span>
+                <span></span></div>
+        </li>
+        <li>
+            <div><span></span><span></span></div>
+            <div> <span></span></div>
+            <div><span></span><span></span></div>
+
+        </li>
+        <li>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
