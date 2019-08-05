@@ -1,0 +1,305 @@
+#llpy header {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  display: flex;
+}
+
+#llpy header .sp1 {
+  flex: 1;
+}
+
+#llpy header .sp2 {
+  flex: 5;
+}
+
+#llpy header .img1 {
+  width: 40%;
+  height: 50%;
+}
+
+#llpy header .img2 {
+  width: 40%;
+  height: 40%;
+}
+
+#llpy main {
+  width: 100%;
+  background: #f4f4f4;
+  border-bottom: 75px solid #f0f0f0;
+}
+
+#llpy main .ma1 {
+  width: 100%;
+  height: 210px;
+}
+
+#llpy main .ma1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 210px;
+}
+
+#llpy main .ma2 {
+  background: #fff;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#llpy main .ma2 .ma2a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#llpy main .ma2 .ma2a img {
+  width: 42px;
+  height: 42px;
+}
+
+#llpy main .ma2 .ma2a span {
+  text-align: center;
+}
+
+#llpy main .ma3 {
+  width: 100%;
+  height: 65px;
+  margin-top: 20px;
+  background: url(../images/bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#llpy main .ma3 .ma3a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -17px;
+}
+
+#llpy main .ma3 .ma3a span {
+  border: 1px solid #e97978;
+  color: #e97978;
+  font-size: 8px;
+}
+
+#llpy main .ma3 .ma3a p {
+  margin-left: 8px;
+  font-size: 9px;
+}
+
+#llpy main .ma3 .ma3b {
+  display: flex;
+  margin-top: 10px;
+}
+
+#llpy main .ma3 .ma3b span {
+  border: 1px solid #e97978;
+  color: #e97978;
+  font-size: 8px;
+}
+
+#llpy main .ma3 .ma3b p {
+  margin-left: 8px;
+  font-size: 9px;
+}
+
+#llpy main .ma4 {
+  width: 100%;
+  height: 170px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+#llpy main .ma4 img {
+  width: 93%;
+  height: 170px;
+}
+
+#llpy main .ma5 {
+  background-color: #fff;
+  height: 145px;
+  display: flex;
+  overflow: scroll;
+  margin-top: 4px;
+}
+
+#llpy main .ma5 .ma5a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#llpy main .ma5 .ma5a img {
+  width: 100px;
+  height: 100px;
+}
+
+#llpy main .ma5 .ma5a p {
+  -webkit-transform: scale(0.7);
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+#llpy main .ma5 .ma5a .p2 {
+  font-weight: bolder;
+  font-size: 9px;
+}
+
+#llpy main .ma6 {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#llpy main .ma6 img {
+  width: 93%;
+  height: 170px;
+}
+
+#llpy main .ma7 {
+  height: 145px;
+  display: flex;
+  overflow: scroll;
+  background-color: #fff;
+}
+
+#llpy main .ma7 .ma7a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#llpy main .ma7 .ma7a img {
+  width: 100px;
+  height: 100px;
+}
+
+#llpy main .ma7 .ma7a p {
+  -webkit-transform: scale(0.7);
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+#llpy main .ma7 .ma7a .p2 {
+  font-weight: bolder;
+  font-size: 9px;
+}
+
+#llpy main .ma8 {
+  width: 100%;
+  height: 725px;
+  padding-top: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#llpy main .ma8 .ma8a {
+  width: 190px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#llpy main .ma8 .ma8a .ma8a1 {
+  background-color: #fff;
+  height: 233px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#llpy main .ma8 .ma8a .ma8a1 img {
+  width: 142px;
+  height: 130px;
+}
+
+#llpy main .ma8 .ma8a .ma8a1 .p1 {
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+#llpy main .ma8 .ma8a .ma8a1 span .p2 {
+  white-space: nowrap;
+  float: left;
+  font-weight: bolder;
+  color: red;
+}
+
+#llpy main .ma8 .ma8a .ma8a1 span .p3 {
+  white-space: nowrap;
+  float: right;
+  margin-left: 80px;
+  font-size: 8px;
+}
+
+#llpy main .ma8 .ma8b {
+  margin-left: 10px;
+  width: 190px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#llpy main .ma8 .ma8b .ma8a1 {
+  background-color: #fff;
+  height: 233px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#llpy main .ma8 .ma8b .ma8a1 img {
+  width: 142px;
+  height: 130px;
+}
+
+#llpy main .ma8 .ma8b .ma8a1 .p1 {
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+#llpy main .ma8 .ma8b .ma8a1 span .p2 {
+  white-space: nowrap;
+  float: left;
+  font-weight: bolder;
+  color: red;
+}
+
+#llpy main .ma8 .ma8b .ma8a1 span .p3 {
+  white-space: nowrap;
+  float: right;
+  margin-left: 80px;
+  font-size: 8px;
+}
+
+#llpy footer {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
