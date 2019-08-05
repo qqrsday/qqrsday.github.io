@@ -6,3 +6,5 @@
 [婚礼纪](qqrsday.github.io/hlj/html/作业.html)<br>
 [开源博客](qqrsday.github.io/blog/html/blog.html)<br>
 [支付宝](qqrsday.github.io/blog/html/zfb.html)<br>
+
+[allpya](qqrsday.github.io/allpyra/html/llpy.html)<br>
